@@ -1,6 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Welcome to Your Vue.js App" />
+
+  <div>
+    {{ number }}
+  </div>
 </template>
 
 <script>
@@ -10,6 +14,12 @@ export default {
   name: "App",
   components: {
     HelloWorld,
+  },
+
+  setup() {
+    return {
+      number: 10,
+    };
   },
 };
 </script>
