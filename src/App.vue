@@ -18,7 +18,7 @@ export default {
 
   setup() {
     return {
-      number: 11,
+      number: 10,
     };
   },
 };
